@@ -1,0 +1,12 @@
+[project]
+name = "haven-oak-ki"
+version = "0.0.0"
+description = "Haven & Oak catalog operations agent (ki), ported from the benchmarked LangChain agents."
+requires-python = ">=3.11"
+dependencies = [
+    "managed-deepagents==0.9.5",
+    "httpx",
+]
+
+[tool.mda]
+python-version = "3.14"

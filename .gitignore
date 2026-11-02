@@ -1,0 +1,10 @@
+# Secrets: never commit real keys
+.env
+.env.*
+!.env.example
+
+# Managed Deep Agent build output and local junk
+.mda/
+__pycache__/
+.venv/
+.DS_Store
